@@ -1,17 +1,19 @@
 {
-	"description": "项目配置文件。",
+	"description": "项目配置文件",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": false,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
-	"appid": "wxa46b09d413fbcaff",
-	"projectname": "%E5%A4%A9%E4%BD%BF%E7%AB%A5%E8%A3%85",
+	"appid": "wxb434e45b49bb9abe",
+	"projectname": "有机吃货助手",
 	"scripts": {},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

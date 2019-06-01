@@ -93,6 +93,7 @@ Page({
     WXAPI.banners({
       type: 'new'
     }).then(function(res) {
+      console.log(res)
       if (res.code == 700) {
         wx.showModal({
           title: '提示',

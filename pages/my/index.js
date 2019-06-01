@@ -29,7 +29,7 @@ Page({
   aboutUs : function () {
     wx.showModal({
       title: '关于我们',
-      content: '本系统基于开源小程序商城系统 https://github.com/EastWorld/wechat-app-mall 搭建，祝大家使用愉快！',
+      content: '感谢您使用有机吃货助手，祝您使用愉快，如果您有好的建议请联系我们: me@wayneye.com',
       showCancel:false
     })
   },
